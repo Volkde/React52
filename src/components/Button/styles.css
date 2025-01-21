@@ -1,13 +1,15 @@
-.styled-button {
-  padding: 12px 24px;
-  background-color: #3226e4;
-  border: none;
-  border-radius: 4px;
-  color: white;
+.button {
+  padding: 10px 20px;
+  margin: 5px;
   font-size: 16px;
-  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #5e4caf;
+  color: white;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%;
-  max-width: 900px; 
+}
+
+.button:hover {
+  background-color: #6245a0;
 }

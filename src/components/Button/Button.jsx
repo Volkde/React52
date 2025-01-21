@@ -9,13 +9,15 @@ import "./styles.css";
 //деструктуризация - 2 вариант ()
 
 
-function Button({ name = "Default Button", type = "button" }) {
+
+function Button({ name, type, onClick }) {
   return (
-    <button className="styled-button" type={type}>
+    <button type={type} onClick={onClick} className="button">
       {name}
     </button>
   );
 }
+
 
 export default Button;
 
