@@ -3,7 +3,7 @@ import Button from "../../components/Button/Button";
 
 function Lesson04() {
   const showMessage = ()=> {
-    alert('Func')
+    alert('')
   }
   return (
     <div className="lesson04-wrapper">
@@ -15,12 +15,6 @@ function Lesson04() {
           onClick={() => {
             alert("Func inner");
           }}
-             {/* Пример 2 - создание функции вне кнопки и передача названия функции в prop */}
-        <Button
-        name="Button with outer func"
-        type="button"
-        onClick={showMessage}
-      />
         />
       </div>
     </div>
