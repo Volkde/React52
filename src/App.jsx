@@ -12,9 +12,25 @@ import Homework04 from "./components/homeworks/Homework04/Homework04";
 
 function App() {
   return (
-    <div>
-      <Homework04 />
-    </div>
+    return (
+      <div className="app">
+        {/* <Button />
+        <Button />
+        <Button /> */}
+        {/* ---Topic: Components */}
+        {/* <Lesson02/> */}
+        {/* <Homework02/> */}
+        {/* ---Topic: Props */}
+        {/* <Lesson03 /> */}
+        {/* <Homework03/> */}
+        {/* ---Topic: functions, hooks(useState) */}
+        {/* <Lesson04 /> */}
+        {/* Consultations */}
+        {/* <Counsultation_02 /> */}
+        {/* <Homework04 /> */}
+        {/* ---Topic: map components */}
+        <Lesson05 />
+      </div>
   );
 }
 
