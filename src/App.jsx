@@ -8,11 +8,11 @@ import "./App.css";
 //homeworks
 // import Homework02 from "./homeworks/Homework02/Homework02";
 //import Homework03 from "./components/homeworks/Homework03/Homework03";
-import Homework04 from "./components/homeworks/Homework04/Homework04";
+//import Homework04 from "./components/homeworks/Homework04/Homework04";
+import Homework05 from "./components/homeworks/Homework05/Homework05";
 
 function App() {
   return (
-    return (
       <div className="app">
         {/* <Button />
         <Button />
@@ -29,7 +29,7 @@ function App() {
         {/* <Counsultation_02 /> */}
         {/* <Homework04 /> */}
         {/* ---Topic: map components */}
-        <Lesson05 />
+        <Homework05 />
       </div>
   );
 }
