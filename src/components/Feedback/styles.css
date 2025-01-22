@@ -1,0 +1,19 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.feedback-buttons {
+  display: flex; 
+  gap: 20px; 
+  align-items: center; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
